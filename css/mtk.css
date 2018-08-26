@@ -1,0 +1,81 @@
+html,body{
+			width: 100%;
+			height:100%;
+			background: url(../images/qixi.png) top center;
+		}
+		.mai{
+			position: fixed;
+			top:70px;
+			right: 160px;
+			width: 1050px;
+			height: 560px;
+			background-color:white;
+			overflow: auto;
+			box-shadow:0 0 10px black;
+			
+		}
+		.all{
+			width: 100%;
+			height: 7000px;
+			background-color:rgba(0,0,0,0.8);
+		}
+		.in{
+			width: 983px;
+			/*height: 845px;*/
+			margin:0 auto;
+			/*background-color: #f65200;*/
+		}
+		.title{
+			width: 983px;
+			margin:0 auto;
+			font:40px 宋体;
+			font-weight: 900;
+			text-align: center;
+			line-height: 150px;
+		}
+		.content::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.left{
+			width: 453px;
+			background-color: white;
+			float: left;
+		}
+		.right{
+			width: 461px;
+			float: left;
+			margin-left: 69px;
+		}
+		
+		.wen>ul>li{
+			text-align: center;
+		}
+		.wen>ul>li>p{
+			text-align: right;
+			position: relative;
+			right: 40px;
+			margin-bottom:20px; 
+			font-size:  15px;
+			font-family:SimSun;
+			color: #a8a8a8; 
+			font-weight: 900;
+		}
+		.wen>ul>li>input{
+			width: 380px;
+			height: 45px;
+			border: 1px solid black;
+			margin:10px;
+			color: #a8a8a8;
+		}
+		.bottom{
+			margin:40px auto;
+			text-align: center;
+		}
+		.iconfont{
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			font-size: 25px;
+		}
